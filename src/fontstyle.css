@@ -1,0 +1,191 @@
+@font-face {
+  font-family: 'Gellix';
+  src: url('./fonts/Gellix-LightItalic.eot');
+  src: local('Gellix Light Italic'), local('Gellix-LightItalic'),
+    url('./fonts/Gellix-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Gellix-LightItalic.woff2') format('woff2'),
+    url('./fonts/Gellix-LightItalic.woff') format('woff'),
+    url('./fonts/Gellix-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gellix';
+  src: url('./fonts/Gellix-ExtraBold.eot');
+  src: local('Gellix ExtraBold'), local('Gellix-ExtraBold'),
+    url('./fonts/Gellix-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Gellix-ExtraBold.woff2') format('woff2'),
+    url('./fonts/Gellix-ExtraBold.woff') format('woff'),
+    url('./fonts/Gellix-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gellix';
+  src: url('./fonts/Gellix-SemiBold.eot');
+  src: local('Gellix SemiBold'), local('Gellix-SemiBold'),
+    url('./fonts/Gellix-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Gellix-SemiBold.woff2') format('woff2'),
+    url('./fonts/Gellix-SemiBold.woff') format('woff'),
+    url('./fonts/Gellix-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gellix';
+  src: url('./fonts/Gellix-RegularItalic.eot');
+  src: local('Gellix Regular Italic'), local('Gellix-RegularItalic'),
+    url('./fonts/Gellix-RegularItalic.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Gellix-RegularItalic.woff2') format('woff2'),
+    url('./fonts/Gellix-RegularItalic.woff') format('woff'),
+    url('./fonts/Gellix-RegularItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gellix';
+  src: url('./fonts/Gellix-ThinItalic.eot');
+  src: local('Gellix Thin Italic'), local('Gellix-ThinItalic'),
+    url('./fonts/Gellix-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Gellix-ThinItalic.woff2') format('woff2'),
+    url('./fonts/Gellix-ThinItalic.woff') format('woff'),
+    url('./fonts/Gellix-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gellix';
+  src: url('./fonts/Gellix-Bold.eot');
+  src: local('Gellix Bold'), local('Gellix-Bold'),
+    url('./fonts/Gellix-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Gellix-Bold.woff2') format('woff2'),
+    url('./fonts/Gellix-Bold.woff') format('woff'),
+    url('./fonts/Gellix-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gellix';
+  src: url('./fonts/Gellix-ExtraBoldItalic.eot');
+  src: local('Gellix ExtraBold Italic'), local('Gellix-ExtraBoldItalic'),
+    url('./fonts/Gellix-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Gellix-ExtraBoldItalic.woff2') format('woff2'),
+    url('./fonts/Gellix-ExtraBoldItalic.woff') format('woff'),
+    url('./fonts/Gellix-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gellix';
+  src: url('./fonts/Gellix-Regular.eot');
+  src: local('Gellix Regular'), local('Gellix-Regular'),
+    url('./fonts/Gellix-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Gellix-Regular.woff2') format('woff2'),
+    url('./fonts/Gellix-Regular.woff') format('woff'),
+    url('./fonts/Gellix-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gellix';
+  src: url('./fonts/Gellix-Medium.eot');
+  src: local('Gellix Medium'), local('Gellix-Medium'),
+    url('./fonts/Gellix-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Gellix-Medium.woff2') format('woff2'),
+    url('./fonts/Gellix-Medium.woff') format('woff'),
+    url('./fonts/Gellix-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gellix';
+  src: url('./fonts/Gellix-SemiBoldItalic.eot');
+  src: local('Gellix SemiBold Italic'), local('Gellix-SemiBoldItalic'),
+    url('./fonts/Gellix-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Gellix-SemiBoldItalic.woff2') format('woff2'),
+    url('./fonts/Gellix-SemiBoldItalic.woff') format('woff'),
+    url('./fonts/Gellix-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gellix';
+  src: url('./fonts/Gellix-Light.eot');
+  src: local('Gellix Light'), local('Gellix-Light'),
+    url('./fonts/Gellix-Light.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Gellix-Light.woff2') format('woff2'),
+    url('./fonts/Gellix-Light.woff') format('woff'),
+    url('./fonts/Gellix-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gellix';
+  src: url('./fonts/Gellix-BoldItalic.eot');
+  src: local('Gellix Bold Italic'), local('Gellix-BoldItalic'),
+    url('./fonts/Gellix-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Gellix-BoldItalic.woff2') format('woff2'),
+    url('./fonts/Gellix-BoldItalic.woff') format('woff'),
+    url('./fonts/Gellix-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gellix';
+  src: url('./fonts/Gellix-BlackItalic.eot');
+  src: local('Gellix Black Italic'), local('Gellix-BlackItalic'),
+    url('./fonts/Gellix-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Gellix-BlackItalic.woff2') format('woff2'),
+    url('./fonts/Gellix-BlackItalic.woff') format('woff'),
+    url('./fonts/Gellix-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gellix';
+  src: url('./fonts/Gellix-Thin.eot');
+  src: local('Gellix Thin'), local('Gellix-Thin'),
+    url('./fonts/Gellix-Thin.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Gellix-Thin.woff2') format('woff2'),
+    url('./fonts/Gellix-Thin.woff') format('woff'),
+    url('./fonts/Gellix-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gellix';
+  src: url('./fonts/Gellix-Black.eot');
+  src: local('Gellix Black'), local('Gellix-Black'),
+    url('./fonts/Gellix-Black.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Gellix-Black.woff2') format('woff2'),
+    url('./fonts/Gellix-Black.woff') format('woff'),
+    url('./fonts/Gellix-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gellix';
+  src: url('./fonts/Gellix-MediumItalic.eot');
+  src: local('Gellix Medium Italic'), local('Gellix-MediumItalic'),
+    url('./fonts/Gellix-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Gellix-MediumItalic.woff2') format('woff2'),
+    url('./fonts/Gellix-MediumItalic.woff') format('woff'),
+    url('./fonts/Gellix-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
