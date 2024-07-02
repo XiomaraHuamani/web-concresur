@@ -51,14 +51,14 @@ const Service = () => {
               Servicios
             </span>
           </h2>
-          <h2 className="text-4xl font-bold text-primary-400 text-center mb-12">
+          <h2 className="text-5xl font-bold text-primary-400 text-center mb-16">
             Cubrimos todas tus necesidades
           </h2>
           <div className="mt-6 flex flex-wrap justify-center gap-6">
             {callouts.map((callout) => (
               <div
                 key={callout.name}
-                className="flex-1 min-w-[200px] max-w-[350px] bg-white rounded-xl"
+                className="flex-1 min-w-[150px] max-w-[250px] bg-white rounded-xl"
               >
                 <img
                   src={callout.imageSrc}
