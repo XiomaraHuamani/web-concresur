@@ -61,7 +61,7 @@ const Footer = () => {
           <div className="text-primary-100 flex-col inline-flex gap-4 pt-6 md:pt-10 text-xs sm:text-sm">
             <div className="flex justify-start items-center hover:text-primary transition-colors duration-300">
               <MdEmail className="text-[22px]" />
-              <span className="pl-4">info@gemmaperu.com</span>
+              <span className="pl-4">admin@concresur.pe</span>
             </div>
             <div className="flex justify-start items-center hover:text-primary transition-colors duration-300">
               <HiLocationMarker className="text-[30px]" />
