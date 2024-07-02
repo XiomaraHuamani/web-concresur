@@ -6,7 +6,7 @@ import constructor from '../assets/img/constructor.jpg'
 
 const Slider = () => {
   return (
-    <div className="bg-primary-700 w-full py-24 sm:pt-30 sm:pb-2">
+    <div className="bg-primary-700 w-full py-24 sm:pt-30 sm:pb-12">
       <div className="w-full max-w-full px-4 sm:px-6 lg:px-20 ">
         <h2 className="text-2xl xl:text-xl font-normal text-primary text-center">
           <span className="border-t border-primary inline-block mb-3">

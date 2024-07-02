@@ -44,40 +44,40 @@ const callouts = [
 const Service = () => {
   return (
     <div className="bg-primary-700 w-full">
-      <div className="w-full max-w-full mx-auto px-4 sm:px-6 lg:px-20">
-        <div className="mx-auto py-16 sm:py-24 lg:py-32">
-          <h2 className="text-2xl xl:text-xl font-normal text-primary text-center">
-            <span className="border-t border-primary inline-block mb-1">
-              Servicios
-            </span>
-          </h2>
-          <h2 className="text-5xl font-bold text-primary-400 text-center mb-16">
-            Cubrimos todas tus necesidades
-          </h2>
-          <div className="mt-6 flex flex-wrap justify-center gap-6">
-            {callouts.map((callout) => (
-              <div
-                key={callout.name}
-                className="flex-1 min-w-[150px] max-w-[250px] bg-white rounded-xl"
-              >
-                <img
-                  src={callout.imageSrc}
-                  alt={callout.imageAlt}
-                  className="h-50 w-full object-cover object-center rounded-t-xl"
-                />
-                <div className="flex justify-center items-center rounded-b-xl p-4 bg-white">
-                  <img
-                    src={callout.description}
-                    alt={`${callout.name} description`}
-                    className="h-full w-full object-cover object-center rounded-b-xl"
-                  />
-                </div>
-              </div>
-            ))}
+  <div className="w-full max-w-full mx-auto px-4 sm:px-6 lg:px-20">
+    <div className="mx-auto py-16 sm:py-24 lg:py-32">
+      <h2 className="text-2xl xl:text-xl font-normal text-primary text-center">
+        <span className="border-t border-primary inline-block mb-1">
+          Servicios
+        </span>
+      </h2>
+      <h2 className="text-5xl font-bold text-primary-400 text-center mb-16">
+        Cubrimos todas tus necesidades
+      </h2>
+      <div className="mt-6 flex flex-wrap justify-center gap-11">
+        {callouts.map((callout) => (
+          <div
+            key={callout.name}
+            className="flex-1 min-w-[150px] max-w-[250px] bg-white rounded-xl overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl"
+          >
+            <img
+              src={callout.imageSrc}
+              alt={callout.imageAlt}
+              className="h-51 w-full object-cover object-center transition duration-300 transform hover:scale-105"
+            />
+            <div className="flex justify-center items-center rounded-b-xl p-4 bg-white">
+              <img
+                src={callout.description}
+                alt={`${callout.name} description`}
+                className="h-full w-full object-cover object-center"
+              />
+            </div>
           </div>
-        </div>
+        ))}
       </div>
     </div>
+  </div>
+</div>
   );
 };
 

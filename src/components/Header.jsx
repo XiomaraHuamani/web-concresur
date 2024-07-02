@@ -4,27 +4,9 @@ import { Link } from 'react-scroll'
 import { Link as LinkRouter } from 'react-router-dom'
 import { AnimatePresence, MotionConfig, motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { FaWhatsapp, FaFacebook, FaInstagram } from 'react-icons/fa';
-// reactstrap components
-import {
-  Button,
-  Collapse,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
-  NavbarBrand,
-  Navbar,
-  NavItem,
-  NavLink,
-  Nav,
-  Container,
-  UncontrolledTooltip,
-} from "reactstrap";
-
-import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
-//import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { FaWhatsapp, FaFacebook, FaInstagram, FaTiktok } from 'react-icons/fa';
 import classNames from 'classnames';
+import navlogo from '../assets/img/nav-logo.svg'
 
 
 const Header = () => {
@@ -50,53 +32,60 @@ const Header = () => {
           className='cursor-pointer relative z-10 lg:z-0'
         >
           <div className='flex gap-2 items-end'>
-            <img src={'/src/assets/img/nav-logo.svg'} alt="My Icon" width="250" height="220" className='h-[200px] md:h-[190px] w-[150px] md:w-[160px]' />
+            <img src={navlogo} alt="My Icon" width="250" height="220" className='h-[200px] md:h-[190px] w-[150px] md:w-[160px]' />
           </div>
         </Link>
         <nav className='text-primary-100 font-medium break-words leading-4 hidden lg:block'>
-  <ul className='flex gap-18 xl:gap-60 items-center'>
-    <div className="hidden sm:ml-2 sm:block ">
-      <div className="flex space-x-1 ">
-        {Routes.map((item) => (
-          <a
-            key={item.label}
-            className={classNames(
-              item.current ? 'bg-gray-900 text-white' : 'text-white-300 hover:bg-gray-300 hover:bg-opacity-30 hover:text-white',
-              'rounded-md px-5 py-3 text-primary-100 font-medium break-words',
-            )}
-            aria-current={item.current ? 'page' : undefined}
-          >
-            {item.label}
-          </a>
-        ))}
-      </div>
-    </div>
-    <div className='flex gap-5 xl:gap-1 items-center '>
-    <div className="hidden sm:ml-2 sm:block ">
-      <div className="rounded-md px-2 py-2  hover:bg-gray-300 hover:bg-opacity-30">
-      <a href="#" target="_blank" rel="noopener noreferrer" className="text-white-500 rounded-md hover:bg-gray-300 hover:bg-opacity-30 ">
-        <FaWhatsapp className="w-6 h-6 hover:text-blue-800 rounded-md " />
-      </a>
-      </div>
-    </div>
-    <div className="hidden sm:ml-2 sm:block ">
-      <div className="rounded-md px-2 py-2  hover:bg-gray-300 hover:bg-opacity-30">
-      <a href="#" target="_blank" rel="noopener noreferrer" className="text-white-500 rounded-md hover:bg-gray-300 hover:bg-opacity-30 ">
-        <FaFacebook className="w-6 h-6 hover:text-blue-800" />
-      </a>
-      </div>
-    </div>
-    <div className="hidden sm:ml-2 sm:block ">
-      <div className="rounded-md px-2 py-2  hover:bg-gray-300 hover:bg-opacity-30">
-      <a href="#" target="_blank" rel="noopener noreferrer" className="text-white-500 rounded-md hover:bg-gray-300 hover:bg-opacity-30 ">
-      <FaInstagram className="w-6 h-6 hover:text-blue-800" />
-      </a>
-      </div>
-    </div>
-    </div>
-    
-  </ul>
-</nav>
+          <ul className='flex gap-18 xl:gap-60 items-center'>
+            <div className="hidden sm:ml-2 sm:block ">
+              <div className="flex space-x-1 ">
+                {Routes.map((item) => (
+                  <a
+                    key={item.label}
+                    className={classNames(
+                      item.current ? 'bg-gray-900 text-white' : 'text-white-300 hover:bg-gray-300 hover:bg-opacity-30 hover:text-white',
+                      'rounded-md px-5 py-3 text-primary-100 font-medium break-words',
+                    )}
+                    aria-current={item.current ? 'page' : undefined}
+                  >
+                    {item.label}
+                  </a>
+                ))}
+              </div>
+            </div>
+            <div className='flex gap-5 xl:gap-1 items-center '>
+              <div className="hidden sm:ml-2 sm:block ">
+                {/* <div className="rounded-md px-2 py-2  hover:bg-gray-300 hover:bg-opacity-30">
+                  <a href="#" target="_blank" rel="noopener noreferrer" className="text-white-500 rounded-md hover:bg-gray-300 hover:bg-opacity-30 ">
+                    <FaWhatsapp className="w-6 h-6 hover:text-blue-800 rounded-md " />
+                  </a>
+                </div> */}
+              </div>
+              <div className="hidden sm:ml-2 sm:block ">
+                <div className="rounded-md px-2 py-2  hover:bg-gray-300 hover:bg-opacity-30">
+                  <a href="#" target="_blank" rel="noopener noreferrer" className="text-white-500 rounded-md hover:bg-gray-300 hover:bg-opacity-30 ">
+                    <FaFacebook className="w-6 h-6 hover:text-blue-800" />
+                  </a>
+                </div>
+              </div>
+              <div className="hidden sm:ml-2 sm:block ">
+                <div className="rounded-md px-2 py-2  hover:bg-gray-300 hover:bg-opacity-30">
+                  <a href="#" target="_blank" rel="noopener noreferrer" className="text-white-500 rounded-md hover:bg-gray-300 hover:bg-opacity-30 ">
+                    <FaInstagram className="w-6 h-6 hover:text-blue-800" />
+                  </a>
+                </div>
+              </div>
+              <div className="hidden sm:ml-2 sm:block">
+                <div className="rounded-md px-2 py-2 hover:bg-gray-300 hover:bg-opacity-30">
+                  <a href="#" target="_blank" rel="noopener noreferrer" className="text-white-500 rounded-md hover:bg-gray-300 hover:bg-opacity-30">
+                    <FaTiktok className="w-5 h-5 hover:text-blue-800 rounded-md" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </ul>
+        </nav>
         {/* <div className='hidden lg:block'>
           <Link
             // onClick={handleArticleClick}
@@ -206,8 +195,6 @@ const Header = () => {
                   className="list-none space-y-6 text-[20px] xs:text-[24px] sm:text-[32px] md:text-[40px] text-primary-100 font-medium break-words leading-[100%]"
                 >
                   {
-
-                    
                     Routes.map(route => (
                       <li key={route.id} >
                         <Link
@@ -225,18 +212,6 @@ const Header = () => {
                       </li>
                     ))
                   }
-                  {/* <li key={Routes[5].id} >
-                        <LinkRouter
-                          to={'/blog'}
-                          className='cursor-pointer'
-                          onClick={() => {
-                            toggleMobileNav()
-                            handleArticleClick()
-                          }}
-                        >
-                          {Routes[5].label}
-                        </LinkRouter>
-                  </li> */}
                 </motion.ul>
                 <motion.div
                   variants={{
