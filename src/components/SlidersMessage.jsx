@@ -59,6 +59,9 @@ const SlidersMessage = ({ list, isLoading, hasError, deviceType }) => {
         </Carousel>
       )}
     </div>
+
+
+
   );
 };
 
