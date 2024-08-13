@@ -32,7 +32,7 @@ const Home = ({ deviceType }) => {
       <Header />
       <div className="flex flex-col items-center w-full mt-[88px]">
       <SlidersMessage />
-      <Service/>
+      < Service/>
       <Proyectos/>
       <Slider/>
       <BanerLogos/>

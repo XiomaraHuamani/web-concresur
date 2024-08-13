@@ -43,7 +43,7 @@ const callouts = [
 
 const Service = () => {
   return (
-    <div className="bg-primary-700 w-full">
+    <div id="Servicios" className="bg-primary-700 w-full">
   <div className="w-full max-w-full mx-auto px-4 sm:px-6 lg:px-20">
     <div className="mx-auto py-16 sm:py-24 lg:py-32">
       <h2 className="text-2xl xl:text-xl font-normal text-primary text-center">

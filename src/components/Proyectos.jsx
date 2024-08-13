@@ -9,7 +9,7 @@ import { LocationMarkerIcon } from '@heroicons/react/outline';
 
 const Proyectos = () => {
   return (
-    <div className="bg-primary-100 w-full">
+    <div id="Proyectos" className="bg-primary-100 w-full">
       <div className="bg-primary-100 w-full max-w-full mx-auto px-4 sm:px-6 lg:px-20">
         <div className="mx-auto py-16 sm:py-24 lg:py-32 ">
           <h2 className="text-2xl xl:text-xl font-normal text-primary text-center ">
