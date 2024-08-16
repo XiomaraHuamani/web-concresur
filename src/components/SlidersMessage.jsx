@@ -27,7 +27,6 @@ const SlidersMessage = ({ list, isLoading, hasError, deviceType }) => {
     <div
       id="Inicio"
       className="relative w-full aspect-[430/453] sm:aspect-[1920/768] bg-secondary overflow-hidden"
-  
     >
       {isLoading ? (
         <ContentLoader
