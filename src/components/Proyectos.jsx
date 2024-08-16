@@ -3,7 +3,7 @@ import FormContact from './FormContact'
 import { SubtitleComponent } from './SubtitleComponent'
 import { TitleComponent } from './TitleComponent'
 import { DescriptionCard } from './DescriptionCard'
-import imgProyecto from '../assets/img/constGemma.svg'
+import imgProyecto from '../assets/img/fachada.png'
 import { LocationMarkerIcon } from '@heroicons/react/outline';
 
 
@@ -17,7 +17,7 @@ const Proyectos = () => {
               Proyectos
             </span>
           </h2>
-          <h2 className="text-5xl font-bold text-primary-400 text-center mb-5">
+          <h2 className="text-5xl font-bold text-primary-400 pb-12 text-center mb-5">
             Construccion de Gemma
           </h2>
 

@@ -3,6 +3,8 @@ import ContentLoader from "react-content-loader";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import SliderItem from "./SliderItem";
+import header3 from '../assets/img/header3.jpg'
+import header4 from '../assets/img/header4.jpg';
 
 const SlidersMessage = ({ list, isLoading, hasError, deviceType }) => {
   const responsive = {
@@ -57,13 +59,8 @@ const SlidersMessage = ({ list, isLoading, hasError, deviceType }) => {
           transitionDuration={500}
         >
           {/* Mapea las imágenes locales */}
-          {["image1"].map((imageKey) => (
-            <SliderItem
-              key={imageKey}
-              imageKey={imageKey}
-              description="Descripción de la imagen"
-            />
-          ))}
+          <SliderItem image={header3} description="Descripción de la imagen 1" />
+          <SliderItem image={header4} description="Descripción de la imagen 2" />
         </Carousel>
       )}
     </div>

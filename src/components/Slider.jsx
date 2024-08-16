@@ -1,5 +1,5 @@
 import React from "react";
-import cart1 from "../assets/img/cart1.svg";
+import cart1 from "../assets/img/cart1.png";
 import constructor from '../assets/img/constructor.jpg'
 
 
