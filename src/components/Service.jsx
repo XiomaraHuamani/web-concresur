@@ -1,3 +1,4 @@
+import { Link as LinkRouter } from "react-router-dom";
 import React from "react";
 import cart1 from "../assets/img/cart1.png";
 import cart2 from "../assets/img/cart2.png";
@@ -54,9 +55,11 @@ const Service = () => {
             alt="Descripción"
             className="text-xl font-semibold mx-auto"
           />
-          <p className="mt-2 text-base" style={{ color: "#0451FF" }}>
-            Descubre cómo se está construyendo la Primera Ciudad Comercial de
-            Arequipa.
+          <p className="mt-2 text-sm" style={{ color: "#0451FF" }}>
+            Descubre cómo se está construyendo la{" "}
+            <span className="font-black">
+              Primera Ciudad Comercial de Arequipa.
+            </span>
           </p>
         </div>
 
@@ -69,10 +72,18 @@ const Service = () => {
             alt="Descripción"
             className="text-xl font-semibold mx-auto"
           />
-          <p className="mt-2 text-base md:text-lg" style={{ color: "#0451FF" }}>
-            Descubre cómo se está construyendo la Primera Ciudad Comercial de
-            Arequipa.
+          <p className="my-2 text-base mb-7" style={{ color: "#0451FF" }}>
+            Descubre cómo se está construyendo la{" "}
+            <span className="font-black">
+              Primera Ciudad Comercial de Arequipa.
+            </span>
           </p>
+          <LinkRouter
+            to={"/Construccion"}
+            className="cursor-pointer bg-blue-600 rounded-full py-3 px-6  text-white"
+          >
+            ver mas
+          </LinkRouter>
         </div>
 
         {/* Borde a lo largo del borde derecho, sobresaliendo la mitad del div */}

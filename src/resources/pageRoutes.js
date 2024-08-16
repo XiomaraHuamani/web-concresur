@@ -3,6 +3,7 @@ export const routes = {
   survey: '/cuestionario',
   blog: "/blog",
   price: '/cotizar',
+  construccion: '/Construccion',
   blogDetail: '/blog/:slug',
   error: '*'
 }
